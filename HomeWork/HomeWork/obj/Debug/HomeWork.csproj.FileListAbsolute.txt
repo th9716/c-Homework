@@ -35,3 +35,16 @@ E:\C#\新增資料夾 (2)\HomeWork\HomeWork\obj\Debug\HomeWork.exe
 E:\C#\新增資料夾 (2)\HomeWork\HomeWork\obj\Debug\HomeWork.pdb
 E:\C#\新增資料夾 (2)\HomeWork\HomeWork\obj\Debug\HomeWork.Frm_BarPos.resources
 E:\C#\新增資料夾 (2)\HomeWork\HomeWork\obj\Debug\HomeWork.Frm_Loan.resources
+D:\GitHub\c-Homework\HomeWork\HomeWork\bin\Debug\HomeWork.exe.config
+D:\GitHub\c-Homework\HomeWork\HomeWork\bin\Debug\HomeWork.exe
+D:\GitHub\c-Homework\HomeWork\HomeWork\bin\Debug\HomeWork.pdb
+D:\GitHub\c-Homework\HomeWork\HomeWork\obj\Debug\HomeWork.csproj.AssemblyReference.cache
+D:\GitHub\c-Homework\HomeWork\HomeWork\obj\Debug\HomeWork.csproj.SuggestedBindingRedirects.cache
+D:\GitHub\c-Homework\HomeWork\HomeWork\obj\Debug\HomeWork.Frm_BarPos.resources
+D:\GitHub\c-Homework\HomeWork\HomeWork\obj\Debug\HomeWork.Frm_Loan.resources
+D:\GitHub\c-Homework\HomeWork\HomeWork\obj\Debug\HomeWork.Frm_LoanReport.resources
+D:\GitHub\c-Homework\HomeWork\HomeWork\obj\Debug\HomeWork.Properties.Resources.resources
+D:\GitHub\c-Homework\HomeWork\HomeWork\obj\Debug\HomeWork.csproj.GenerateResource.cache
+D:\GitHub\c-Homework\HomeWork\HomeWork\obj\Debug\HomeWork.csproj.CoreCompileInputs.cache
+D:\GitHub\c-Homework\HomeWork\HomeWork\obj\Debug\HomeWork.exe
+D:\GitHub\c-Homework\HomeWork\HomeWork\obj\Debug\HomeWork.pdb

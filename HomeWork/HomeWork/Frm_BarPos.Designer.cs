@@ -41,8 +41,7 @@
             this.Btn_Cash = new System.Windows.Forms.Button();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.Btn_ClearList = new System.Windows.Forms.Button();
-            this.txt_List = new System.Windows.Forms.RichTextBox();
-            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.listBox = new System.Windows.Forms.ListBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -172,12 +171,12 @@
             // 
             // groupBox4
             // 
+            this.groupBox4.Controls.Add(this.listBox);
             this.groupBox4.Controls.Add(this.Btn_ClearList);
-            this.groupBox4.Controls.Add(this.txt_List);
             this.groupBox4.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.groupBox4.Location = new System.Drawing.Point(547, 80);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(304, 346);
+            this.groupBox4.Size = new System.Drawing.Size(380, 377);
             this.groupBox4.TabIndex = 3;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "購物清單 List";
@@ -185,7 +184,7 @@
             // Btn_ClearList
             // 
             this.Btn_ClearList.Font = new System.Drawing.Font("微軟正黑體", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.Btn_ClearList.Location = new System.Drawing.Point(208, 299);
+            this.Btn_ClearList.Location = new System.Drawing.Point(280, 328);
             this.Btn_ClearList.Name = "Btn_ClearList";
             this.Btn_ClearList.Size = new System.Drawing.Size(78, 36);
             this.Btn_ClearList.TabIndex = 5;
@@ -193,30 +192,27 @@
             this.Btn_ClearList.UseVisualStyleBackColor = true;
             this.Btn_ClearList.Click += new System.EventHandler(this.Btn_ClearList_Click);
             // 
-            // txt_List
+            // listBox
             // 
-            this.txt_List.Location = new System.Drawing.Point(20, 39);
-            this.txt_List.Name = "txt_List";
-            this.txt_List.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.txt_List.Size = new System.Drawing.Size(266, 254);
-            this.txt_List.TabIndex = 4;
-            this.txt_List.Text = "尚未點餐";
-            // 
-            // listBox1
-            // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.ItemHeight = 12;
-            this.listBox1.Location = new System.Drawing.Point(857, 119);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(266, 256);
-            this.listBox1.TabIndex = 6;
+            this.listBox.Cursor = System.Windows.Forms.Cursors.Default;
+            this.listBox.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.listBox.FormattingEnabled = true;
+            this.listBox.HorizontalScrollbar = true;
+            this.listBox.ItemHeight = 20;
+            this.listBox.Location = new System.Drawing.Point(20, 29);
+            this.listBox.Name = "listBox";
+            this.listBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.listBox.ScrollAlwaysVisible = true;
+            this.listBox.SelectionMode = System.Windows.Forms.SelectionMode.None;
+            this.listBox.Size = new System.Drawing.Size(338, 284);
+            this.listBox.TabIndex = 4;
+            this.listBox.Tag = "";
             // 
             // Frm_BarPos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1247, 490);
-            this.Controls.Add(this.listBox1);
+            this.ClientSize = new System.Drawing.Size(1018, 490);
             this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
@@ -244,11 +240,10 @@
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.GroupBox groupBox4;
         private System.Windows.Forms.Button Btn_ClearList;
-        private System.Windows.Forms.RichTextBox txt_List;
         private System.Windows.Forms.TextBox txt_TotalPrice;
         private System.Windows.Forms.Button Btn_CreditCard;
         private System.Windows.Forms.Button Btn_Cash;
         private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.ListBox listBox;
     }
 }
