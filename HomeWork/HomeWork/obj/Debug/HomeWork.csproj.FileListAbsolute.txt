@@ -1,0 +1,37 @@
+C:\Users\Student\source\repos\HomeWork\HomeWork\obj\Debug\HomeWork.csproj.AssemblyReference.cache
+C:\Users\Student\source\repos\HomeWork\HomeWork\obj\Debug\HomeWork.csproj.SuggestedBindingRedirects.cache
+C:\Users\Student\source\repos\HomeWork\HomeWork\obj\Debug\HomeWork.Frm_LoanReport.resources
+C:\Users\Student\source\repos\HomeWork\HomeWork\obj\Debug\HomeWork.Properties.Resources.resources
+C:\Users\Student\source\repos\HomeWork\HomeWork\obj\Debug\HomeWork.csproj.GenerateResource.cache
+C:\Users\Student\source\repos\HomeWork\HomeWork\obj\Debug\HomeWork.csproj.CoreCompileInputs.cache
+C:\Users\Student\source\repos\HomeWork\HomeWork\bin\Debug\HomeWork.exe.config
+C:\Users\Student\source\repos\HomeWork\HomeWork\bin\Debug\HomeWork.exe
+C:\Users\Student\source\repos\HomeWork\HomeWork\bin\Debug\HomeWork.pdb
+C:\Users\Student\source\repos\HomeWork\HomeWork\obj\Debug\HomeWork.exe
+C:\Users\Student\source\repos\HomeWork\HomeWork\obj\Debug\HomeWork.pdb
+E:\C#\新增資料夾\HomeWork\HomeWork\bin\Debug\HomeWork.exe.config
+E:\C#\新增資料夾\HomeWork\HomeWork\bin\Debug\HomeWork.exe
+E:\C#\新增資料夾\HomeWork\HomeWork\bin\Debug\HomeWork.pdb
+E:\C#\新增資料夾\HomeWork\HomeWork\obj\Debug\HomeWork.csproj.AssemblyReference.cache
+E:\C#\新增資料夾\HomeWork\HomeWork\obj\Debug\HomeWork.csproj.SuggestedBindingRedirects.cache
+E:\C#\新增資料夾\HomeWork\HomeWork\obj\Debug\HomeWork.Frm_Loan.resources
+E:\C#\新增資料夾\HomeWork\HomeWork\obj\Debug\HomeWork.Frm_LoanReport.resources
+E:\C#\新增資料夾\HomeWork\HomeWork\obj\Debug\HomeWork.Properties.Resources.resources
+E:\C#\新增資料夾\HomeWork\HomeWork\obj\Debug\HomeWork.csproj.GenerateResource.cache
+E:\C#\新增資料夾\HomeWork\HomeWork\obj\Debug\HomeWork.csproj.CoreCompileInputs.cache
+E:\C#\新增資料夾\HomeWork\HomeWork\obj\Debug\HomeWork.exe
+E:\C#\新增資料夾\HomeWork\HomeWork\obj\Debug\HomeWork.pdb
+C:\Users\Student\source\repos\HomeWork\HomeWork\obj\Debug\HomeWork.Loan.resources
+E:\C#\新增資料夾 (2)\HomeWork\HomeWork\bin\Debug\HomeWork.exe.config
+E:\C#\新增資料夾 (2)\HomeWork\HomeWork\bin\Debug\HomeWork.exe
+E:\C#\新增資料夾 (2)\HomeWork\HomeWork\bin\Debug\HomeWork.pdb
+E:\C#\新增資料夾 (2)\HomeWork\HomeWork\obj\Debug\HomeWork.csproj.AssemblyReference.cache
+E:\C#\新增資料夾 (2)\HomeWork\HomeWork\obj\Debug\HomeWork.csproj.SuggestedBindingRedirects.cache
+E:\C#\新增資料夾 (2)\HomeWork\HomeWork\obj\Debug\HomeWork.Frm_LoanReport.resources
+E:\C#\新增資料夾 (2)\HomeWork\HomeWork\obj\Debug\HomeWork.Properties.Resources.resources
+E:\C#\新增資料夾 (2)\HomeWork\HomeWork\obj\Debug\HomeWork.csproj.GenerateResource.cache
+E:\C#\新增資料夾 (2)\HomeWork\HomeWork\obj\Debug\HomeWork.csproj.CoreCompileInputs.cache
+E:\C#\新增資料夾 (2)\HomeWork\HomeWork\obj\Debug\HomeWork.exe
+E:\C#\新增資料夾 (2)\HomeWork\HomeWork\obj\Debug\HomeWork.pdb
+E:\C#\新增資料夾 (2)\HomeWork\HomeWork\obj\Debug\HomeWork.Frm_BarPos.resources
+E:\C#\新增資料夾 (2)\HomeWork\HomeWork\obj\Debug\HomeWork.Frm_Loan.resources
