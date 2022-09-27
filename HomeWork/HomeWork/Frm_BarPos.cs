@@ -102,6 +102,30 @@ namespace HomeWork
             txt_TotalPrice.Clear();
             listBox.Items.Clear();
         }
-       
+
+        private void Btn_Cash_Click(object sender, EventArgs e)
+        {
+            if (total > 0)
+            {
+                MessageBox.Show($"總金額: NT${total.ToString()}", "確認付款", MessageBoxButtons.OKCancel, MessageBoxIcon.Information);
+            }
+            else
+            {
+                MessageBox.Show("尚未點餐", "確認付款", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+        }
+
+        private void Btn_CreditCard_Click(object sender, EventArgs e)
+        {
+            decimal Credit = total/10*9;
+            if (total > 0)
+            {
+                MessageBox.Show($"總金額: NT${total.ToString()}" +"\n" +$"折扣後金額: NT${Credit}", "確認付款", MessageBoxButtons.OKCancel, MessageBoxIcon.Information);
+            }
+            else
+            {
+                MessageBox.Show("尚未點餐", "確認付款", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+        }
     }
 }

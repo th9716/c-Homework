@@ -40,8 +40,8 @@
             this.Btn_CreditCard = new System.Windows.Forms.Button();
             this.Btn_Cash = new System.Windows.Forms.Button();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.Btn_ClearList = new System.Windows.Forms.Button();
             this.listBox = new System.Windows.Forms.ListBox();
+            this.Btn_ClearList = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -159,6 +159,7 @@
             this.Btn_CreditCard.TabIndex = 7;
             this.Btn_CreditCard.Text = "信用卡";
             this.Btn_CreditCard.UseVisualStyleBackColor = true;
+            this.Btn_CreditCard.Click += new System.EventHandler(this.Btn_CreditCard_Click);
             // 
             // Btn_Cash
             // 
@@ -168,6 +169,7 @@
             this.Btn_Cash.TabIndex = 6;
             this.Btn_Cash.Text = "現金";
             this.Btn_Cash.UseVisualStyleBackColor = true;
+            this.Btn_Cash.Click += new System.EventHandler(this.Btn_Cash_Click);
             // 
             // groupBox4
             // 
@@ -180,17 +182,6 @@
             this.groupBox4.TabIndex = 3;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "購物清單 List";
-            // 
-            // Btn_ClearList
-            // 
-            this.Btn_ClearList.Font = new System.Drawing.Font("微軟正黑體", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.Btn_ClearList.Location = new System.Drawing.Point(280, 328);
-            this.Btn_ClearList.Name = "Btn_ClearList";
-            this.Btn_ClearList.Size = new System.Drawing.Size(78, 36);
-            this.Btn_ClearList.TabIndex = 5;
-            this.Btn_ClearList.Text = "清除清單";
-            this.Btn_ClearList.UseVisualStyleBackColor = true;
-            this.Btn_ClearList.Click += new System.EventHandler(this.Btn_ClearList_Click);
             // 
             // listBox
             // 
@@ -207,6 +198,17 @@
             this.listBox.Size = new System.Drawing.Size(338, 284);
             this.listBox.TabIndex = 4;
             this.listBox.Tag = "";
+            // 
+            // Btn_ClearList
+            // 
+            this.Btn_ClearList.Font = new System.Drawing.Font("微軟正黑體", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.Btn_ClearList.Location = new System.Drawing.Point(280, 328);
+            this.Btn_ClearList.Name = "Btn_ClearList";
+            this.Btn_ClearList.Size = new System.Drawing.Size(78, 36);
+            this.Btn_ClearList.TabIndex = 5;
+            this.Btn_ClearList.Text = "清除清單";
+            this.Btn_ClearList.UseVisualStyleBackColor = true;
+            this.Btn_ClearList.Click += new System.EventHandler(this.Btn_ClearList_Click);
             // 
             // Frm_BarPos
             // 
