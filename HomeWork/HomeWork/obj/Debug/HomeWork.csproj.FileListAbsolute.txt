@@ -64,3 +64,4 @@ C:\Users\Student\Documents\GitHub\c-Homework\HomeWork\HomeWork\obj\Debug\HomeWor
 C:\Users\Student\Documents\GitHub\c-Homework\HomeWork\HomeWork\obj\Debug\HomeWork.pdb
 C:\Users\Student\Documents\GitHub\c-Homework\HomeWork\HomeWork\obj\Debug\HomeWork.Frm_MyClac.resources
 C:\Users\Student\Documents\GitHub\c-Homework\HomeWork\HomeWork\obj\Debug\HomeWork.Frm_StructForm.resources
+C:\Users\Student\Documents\GitHub\c-Homework\HomeWork\HomeWork\obj\Debug\HomeWork.Frm_StudentGrades.resources

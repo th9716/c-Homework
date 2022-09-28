@@ -52,6 +52,12 @@
     <Compile Include="Frm_BarPos.Designer.cs">
       <DependentUpon>Frm_BarPos.cs</DependentUpon>
     </Compile>
+    <Compile Include="Frm_BarPos01.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_BarPos01.Designer.cs">
+      <DependentUpon>Frm_BarPos01.cs</DependentUpon>
+    </Compile>
     <Compile Include="Frm_Homepage.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -93,6 +99,9 @@
     <Compile Include="Utility.cs" />
     <EmbeddedResource Include="Frm_BarPos.resx">
       <DependentUpon>Frm_BarPos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_BarPos01.resx">
+      <DependentUpon>Frm_BarPos01.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_Homepage.resx">
       <DependentUpon>Frm_Homepage.cs</DependentUpon>

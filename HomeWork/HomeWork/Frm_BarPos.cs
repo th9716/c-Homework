@@ -48,9 +48,9 @@ namespace HomeWork
             BAmount += 1;
             TBeer += beer;
             total += TBeer;
-            
+    
             result = $"啤酒 Beer x {BAmount} , 共NT$ {TBeer} 元\n ";
-            
+
             txt_TotalPrice.Text = $"NT$ {total.ToString()}";
             listBox.Items.Add(result);
         }

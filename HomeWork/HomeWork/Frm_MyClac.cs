@@ -18,8 +18,6 @@ namespace HomeWork
         }
 
         
-        
-
 
         private void Btn_Plus_Click(object sender, EventArgs e)
         {
