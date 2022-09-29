@@ -16,7 +16,7 @@ namespace HomeWork
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Frm_BarPos01());
+            Application.Run(new Frm_XOGame());
         }
     }
 }

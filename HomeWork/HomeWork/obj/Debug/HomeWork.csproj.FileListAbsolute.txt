@@ -65,3 +65,9 @@ C:\Users\Student\Documents\GitHub\c-Homework\HomeWork\HomeWork\obj\Debug\HomeWor
 C:\Users\Student\Documents\GitHub\c-Homework\HomeWork\HomeWork\obj\Debug\HomeWork.Frm_MyClac.resources
 C:\Users\Student\Documents\GitHub\c-Homework\HomeWork\HomeWork\obj\Debug\HomeWork.Frm_StructForm.resources
 C:\Users\Student\Documents\GitHub\c-Homework\HomeWork\HomeWork\obj\Debug\HomeWork.Frm_StudentGrades.resources
+D:\GitHub\c-Homework\HomeWork\HomeWork\obj\Debug\HomeWork.Frm_BarPos01.resources
+D:\GitHub\c-Homework\HomeWork\HomeWork\obj\Debug\HomeWork.Frm_Homepage.resources
+D:\GitHub\c-Homework\HomeWork\HomeWork\obj\Debug\HomeWork.Frm_MyClac.resources
+D:\GitHub\c-Homework\HomeWork\HomeWork\obj\Debug\HomeWork.Frm_StructForm.resources
+D:\GitHub\c-Homework\HomeWork\HomeWork\obj\Debug\HomeWork.Frm_StudentGrades.resources
+D:\GitHub\c-Homework\HomeWork\HomeWork\obj\Debug\HomeWork.Frm_XOGame.resources

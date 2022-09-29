@@ -94,6 +94,12 @@
     <Compile Include="Frm_StudentGrades.Designer.cs">
       <DependentUpon>Frm_StudentGrades.cs</DependentUpon>
     </Compile>
+    <Compile Include="Frm_XOGame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_XOGame.Designer.cs">
+      <DependentUpon>Frm_XOGame.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Utility.cs" />
@@ -120,6 +126,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_StudentGrades.resx">
       <DependentUpon>Frm_StudentGrades.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_XOGame.resx">
+      <DependentUpon>Frm_XOGame.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
