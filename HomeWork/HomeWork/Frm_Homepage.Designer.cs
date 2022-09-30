@@ -192,6 +192,7 @@
             this.button16.TabIndex = 1;
             this.button16.Text = "Alarm";
             this.button16.UseVisualStyleBackColor = true;
+            this.button16.Click += new System.EventHandler(this.button16_Click);
             // 
             // Frm_Homepage
             // 

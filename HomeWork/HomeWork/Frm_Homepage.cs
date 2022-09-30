@@ -34,5 +34,11 @@ namespace HomeWork
             Frm_MyClac myclac = new Frm_MyClac();
             myclac.Show();
         }
+
+        private void button16_Click(object sender, EventArgs e)
+        {
+            Frm_Alarm alarm = new Frm_Alarm();
+            alarm.Show();
+        }
     }
 }
