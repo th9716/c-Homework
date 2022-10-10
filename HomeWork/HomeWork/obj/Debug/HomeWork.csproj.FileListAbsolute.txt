@@ -74,3 +74,6 @@ D:\GitHub\c-Homework\HomeWork\HomeWork\obj\Debug\HomeWork.Frm_XOGame.resources
 C:\Users\Student\Documents\GitHub\c-Homework\HomeWork\HomeWork\obj\Debug\HomeWork.Frm_Alarm.resources
 C:\Users\Student\Documents\GitHub\c-Homework\HomeWork\HomeWork\obj\Debug\HomeWork.Frm_BarPos01.resources
 C:\Users\Student\Documents\GitHub\c-Homework\HomeWork\HomeWork\obj\Debug\HomeWork.Frm_XOGame.resources
+D:\GitHub\c-Homework\HomeWork\HomeWork\obj\Debug\HomeWork.Frm_Alarm.resources
+D:\GitHub\c-Homework\HomeWork\HomeWork\obj\Debug\HomeWork.Frm_NotePad.resources
+D:\GitHub\c-Homework\HomeWork\HomeWork\obj\Debug\HomeWork.Frm_小畫家.resources

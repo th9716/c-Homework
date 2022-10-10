@@ -40,5 +40,17 @@ namespace HomeWork
             Frm_Alarm alarm = new Frm_Alarm();
             alarm.Show();
         }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            Frm_NotePad notepad = new Frm_NotePad();
+            notepad.Show();
+        }
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+            Frm_小畫家 paint = new Frm_小畫家();
+            paint.Show();
+        }
     }
 }

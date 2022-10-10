@@ -16,7 +16,7 @@ namespace HomeWork
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Frm_Alarm());
+            Application.Run(new Frm_小畫家());
         }
     }
 }
