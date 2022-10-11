@@ -40,7 +40,6 @@ D:\GitHub\c-Homework\HomeWork\HomeWork\bin\Debug\HomeWork.exe
 D:\GitHub\c-Homework\HomeWork\HomeWork\bin\Debug\HomeWork.pdb
 D:\GitHub\c-Homework\HomeWork\HomeWork\obj\Debug\HomeWork.csproj.AssemblyReference.cache
 D:\GitHub\c-Homework\HomeWork\HomeWork\obj\Debug\HomeWork.csproj.SuggestedBindingRedirects.cache
-D:\GitHub\c-Homework\HomeWork\HomeWork\obj\Debug\HomeWork.Frm_BarPos.resources
 D:\GitHub\c-Homework\HomeWork\HomeWork\obj\Debug\HomeWork.Frm_Loan.resources
 D:\GitHub\c-Homework\HomeWork\HomeWork\obj\Debug\HomeWork.Frm_LoanReport.resources
 D:\GitHub\c-Homework\HomeWork\HomeWork\obj\Debug\HomeWork.Properties.Resources.resources
@@ -65,7 +64,6 @@ C:\Users\Student\Documents\GitHub\c-Homework\HomeWork\HomeWork\obj\Debug\HomeWor
 C:\Users\Student\Documents\GitHub\c-Homework\HomeWork\HomeWork\obj\Debug\HomeWork.Frm_MyClac.resources
 C:\Users\Student\Documents\GitHub\c-Homework\HomeWork\HomeWork\obj\Debug\HomeWork.Frm_StructForm.resources
 C:\Users\Student\Documents\GitHub\c-Homework\HomeWork\HomeWork\obj\Debug\HomeWork.Frm_StudentGrades.resources
-D:\GitHub\c-Homework\HomeWork\HomeWork\obj\Debug\HomeWork.Frm_BarPos01.resources
 D:\GitHub\c-Homework\HomeWork\HomeWork\obj\Debug\HomeWork.Frm_Homepage.resources
 D:\GitHub\c-Homework\HomeWork\HomeWork\obj\Debug\HomeWork.Frm_MyClac.resources
 D:\GitHub\c-Homework\HomeWork\HomeWork\obj\Debug\HomeWork.Frm_StructForm.resources
@@ -77,3 +75,5 @@ C:\Users\Student\Documents\GitHub\c-Homework\HomeWork\HomeWork\obj\Debug\HomeWor
 D:\GitHub\c-Homework\HomeWork\HomeWork\obj\Debug\HomeWork.Frm_Alarm.resources
 D:\GitHub\c-Homework\HomeWork\HomeWork\obj\Debug\HomeWork.Frm_NotePad.resources
 D:\GitHub\c-Homework\HomeWork\HomeWork\obj\Debug\HomeWork.Frm_小畫家.resources
+D:\GitHub\c-Homework\HomeWork\HomeWork\obj\Debug\HomeWork.Frm_Guess.resources
+D:\GitHub\c-Homework\HomeWork\HomeWork\obj\Debug\HomeWork.Frm_GuessNumber.resources

@@ -25,8 +25,7 @@ namespace HomeWork
 
         private void btn_pos_Click(object sender, EventArgs e)
         {
-            Frm_BarPos pos = new Frm_BarPos();
-            pos.Show();
+            
         }
 
         private void button8_Click(object sender, EventArgs e)
@@ -51,6 +50,18 @@ namespace HomeWork
         {
             Frm_小畫家 paint = new Frm_小畫家();
             paint.Show();
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            Frm_XOGame xoGame = new Frm_XOGame();
+            xoGame.Show();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Frm_StructForm structForm = new Frm_StructForm();
+            structForm.Show();
         }
     }
 }
