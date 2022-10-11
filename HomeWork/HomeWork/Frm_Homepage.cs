@@ -25,7 +25,8 @@ namespace HomeWork
 
         private void btn_pos_Click(object sender, EventArgs e)
         {
-            
+            Frm_BarPos barPos = new Frm_BarPos();
+            barPos.Show();
         }
 
         private void button8_Click(object sender, EventArgs e)
@@ -62,6 +63,18 @@ namespace HomeWork
         {
             Frm_StructForm structForm = new Frm_StructForm();
             structForm.Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Frm_GuessNumber guessNumber=new Frm_GuessNumber();
+            guessNumber.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Frm_Hello hello = new Frm_Hello();
+            hello.Show();
         }
     }
 }

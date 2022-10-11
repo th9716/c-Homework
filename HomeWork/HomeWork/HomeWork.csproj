@@ -52,6 +52,12 @@
     <Compile Include="Frm_Alarm.Designer.cs">
       <DependentUpon>Frm_Alarm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Frm_BarPos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_BarPos.Designer.cs">
+      <DependentUpon>Frm_BarPos.cs</DependentUpon>
+    </Compile>
     <Compile Include="Frm_Guess.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -63,6 +69,12 @@
     </Compile>
     <Compile Include="Frm_GuessNumber.Designer.cs">
       <DependentUpon>Frm_GuessNumber.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Hello.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Hello.Designer.cs">
+      <DependentUpon>Frm_Hello.cs</DependentUpon>
     </Compile>
     <Compile Include="Frm_Homepage.cs">
       <SubType>Form</SubType>
@@ -125,11 +137,17 @@
     <EmbeddedResource Include="Frm_Alarm.resx">
       <DependentUpon>Frm_Alarm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Frm_BarPos.resx">
+      <DependentUpon>Frm_BarPos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Frm_Guess.resx">
       <DependentUpon>Frm_Guess.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_GuessNumber.resx">
       <DependentUpon>Frm_GuessNumber.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Hello.resx">
+      <DependentUpon>Frm_Hello.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_Homepage.resx">
       <DependentUpon>Frm_Homepage.cs</DependentUpon>
@@ -183,6 +201,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\337813.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\912320.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
