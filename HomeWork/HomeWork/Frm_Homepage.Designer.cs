@@ -46,7 +46,7 @@
             this.btn_loan.BackColor = System.Drawing.Color.SkyBlue;
             this.btn_loan.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_loan.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.btn_loan.Location = new System.Drawing.Point(46, 100);
+            this.btn_loan.Location = new System.Drawing.Point(46, 92);
             this.btn_loan.Name = "btn_loan";
             this.btn_loan.Size = new System.Drawing.Size(139, 55);
             this.btn_loan.TabIndex = 1;
@@ -60,7 +60,7 @@
             this.btn_pos.BackColor = System.Drawing.Color.SkyBlue;
             this.btn_pos.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_pos.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.btn_pos.Location = new System.Drawing.Point(46, 169);
+            this.btn_pos.Location = new System.Drawing.Point(46, 695);
             this.btn_pos.Name = "btn_pos";
             this.btn_pos.Size = new System.Drawing.Size(139, 55);
             this.btn_pos.TabIndex = 1;
@@ -74,7 +74,7 @@
             this.button4.BackColor = System.Drawing.Color.SkyBlue;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button4.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.button4.Location = new System.Drawing.Point(46, 244);
+            this.button4.Location = new System.Drawing.Point(46, 166);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(139, 55);
             this.button4.TabIndex = 1;
@@ -88,7 +88,7 @@
             this.button8.BackColor = System.Drawing.Color.SkyBlue;
             this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button8.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.button8.Location = new System.Drawing.Point(46, 316);
+            this.button8.Location = new System.Drawing.Point(46, 238);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(139, 55);
             this.button8.TabIndex = 1;
@@ -102,7 +102,7 @@
             this.button10.BackColor = System.Drawing.Color.SkyBlue;
             this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button10.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.button10.Location = new System.Drawing.Point(46, 628);
+            this.button10.Location = new System.Drawing.Point(46, 620);
             this.button10.Name = "button10";
             this.button10.Size = new System.Drawing.Size(139, 55);
             this.button10.TabIndex = 1;
@@ -116,7 +116,7 @@
             this.button12.BackColor = System.Drawing.Color.SkyBlue;
             this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button12.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.button12.Location = new System.Drawing.Point(46, 394);
+            this.button12.Location = new System.Drawing.Point(46, 316);
             this.button12.Name = "button12";
             this.button12.Size = new System.Drawing.Size(139, 55);
             this.button12.TabIndex = 1;
@@ -130,7 +130,7 @@
             this.button13.BackColor = System.Drawing.Color.SkyBlue;
             this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button13.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.button13.Location = new System.Drawing.Point(46, 547);
+            this.button13.Location = new System.Drawing.Point(46, 543);
             this.button13.Name = "button13";
             this.button13.Size = new System.Drawing.Size(139, 55);
             this.button13.TabIndex = 1;
@@ -144,7 +144,7 @@
             this.button16.BackColor = System.Drawing.Color.SkyBlue;
             this.button16.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button16.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.button16.Location = new System.Drawing.Point(46, 470);
+            this.button16.Location = new System.Drawing.Point(46, 392);
             this.button16.Name = "button16";
             this.button16.Size = new System.Drawing.Size(139, 55);
             this.button16.TabIndex = 1;
@@ -158,7 +158,7 @@
             this.button1.BackColor = System.Drawing.Color.SkyBlue;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button1.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.button1.Location = new System.Drawing.Point(46, 705);
+            this.button1.Location = new System.Drawing.Point(46, 468);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(139, 55);
             this.button1.TabIndex = 1;
@@ -172,7 +172,7 @@
             this.button2.BackColor = System.Drawing.Color.SkyBlue;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button2.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.button2.Location = new System.Drawing.Point(46, 26);
+            this.button2.Location = new System.Drawing.Point(46, 18);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(139, 55);
             this.button2.TabIndex = 1;
@@ -186,7 +186,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::HomeWork.Properties.Resources._337813;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1218, 785);
+            this.ClientSize = new System.Drawing.Size(1209, 768);
             this.Controls.Add(this.button16);
             this.Controls.Add(this.button13);
             this.Controls.Add(this.button1);
