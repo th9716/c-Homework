@@ -14,25 +14,32 @@ namespace HomeWork
     {
         
 
-        public static Frm_GuessNumber gn = new Frm_GuessNumber();
-
+        
+        //建立類別實體
+        ClassGuess gus = new ClassGuess();
         public Frm_GuessNumber()
         {
             InitializeComponent();
             
-            gn = this;
+            
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Frm_Guess guess = new Frm_Guess();
-            guess.ShowDialog();
+            Frm_Guess gu = new Frm_Guess(this);
+            gu.ShowDialog();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Frm_Guess.g.Answer();
-            
+            MessageBox.Show($"Anser:{ClassGuess.AnswerNumber}");
+            //重新產生亂數
+            gus.buildAnNumber();
+
+        }
+        private void Frm_GuessNumber_Load(object sender, EventArgs e)
+        {
+            gus.buildAnNumber();
         }
     }
 }

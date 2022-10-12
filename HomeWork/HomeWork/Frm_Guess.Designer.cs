@@ -28,21 +28,21 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
+            this.lab_GuessInfo = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.txt_keyin = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // label1
+            // lab_GuessInfo
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("微軟正黑體", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label1.Location = new System.Drawing.Point(50, 81);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(243, 26);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Please input a numebr.";
+            this.lab_GuessInfo.AutoSize = true;
+            this.lab_GuessInfo.Font = new System.Drawing.Font("微軟正黑體", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.lab_GuessInfo.Location = new System.Drawing.Point(50, 81);
+            this.lab_GuessInfo.Name = "lab_GuessInfo";
+            this.lab_GuessInfo.Size = new System.Drawing.Size(243, 26);
+            this.lab_GuessInfo.TabIndex = 1;
+            this.lab_GuessInfo.Text = "Please input a numebr.";
             // 
             // button1
             // 
@@ -82,9 +82,10 @@
             this.Controls.Add(this.txt_keyin);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lab_GuessInfo);
             this.Name = "Frm_Guess";
             this.Text = "Frm_Guess";
+            this.Load += new System.EventHandler(this.Frm_Guess_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -92,7 +93,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lab_GuessInfo;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.TextBox txt_keyin;

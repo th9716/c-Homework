@@ -12,8 +12,8 @@ namespace HomeWork
 {
     public partial class Frm_Guess : Form
     {
-        public static Frm_Guess g = new Frm_Guess();
-        
+        private Frm_GuessNumber frm;
+
 
         int guess;  //電腦亂數產生的答案
         int count;  //猜了幾次
@@ -23,54 +23,18 @@ namespace HomeWork
         
         
         
-        public Frm_Guess()
+        public Frm_Guess(Frm_GuessNumber form1)
         {
             InitializeComponent();
-            g = this;
+            frm = form1; //操作父視窗
             
         }
 
-        public void Num()
-        {
+        ClassGuess gu = new ClassGuess();
 
-        }
+        
 
-        public void Guess()
-        {
-            int keyin = int.Parse(txt_keyin.Text);
-
-            count = 0;  //初始化猜的次數
-            min = 1;
-            max = 100;
-            //建立亂數
-            Random rm = new Random();
-            guess = rm.Next(1, 100);
-
-            if(keyin >= min && keyin <= max)
-            {
-                if(keyin == guess)
-                {
-                    MessageBox.Show($"Congradulation!You got {guess} !!!");
-                }
-                else if(keyin > guess)
-                {
-                    max = keyin;
-                    Frm_GuessNumber.gn.txt_between.Text = $"Too Large!!\n"; /*+ $"Between {min} and {keyin}";*/
-                }
-                else if(keyin < guess)
-                {
-                    min = keyin;
-                    Frm_GuessNumber.gn.txt_between.Text = $"Too Small!!\n"; /*+ $"Between {keyin} and {max}";*/
-                }
-                else
-                {
-                    Frm_GuessNumber.gn.txt_between.Text = $" Error !!!";
-                }
-            }
-
-            
-
-        }
+       
 
        public void Answer()
         {
@@ -81,13 +45,22 @@ namespace HomeWork
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Guess();
-            
+            gu.GuessPlay(txt_keyin.Text);
+
+            frm.lab_GuessInfo.Text = $"{ClassGuess.GuessInfo}";
+
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void Frm_Guess_Load(object sender, EventArgs e)
+        {
+            int x = (System.Windows.Forms.SystemInformation.WorkingArea.Width - this.Size.Width) / 2;  //螢幕寬1/2位置
+            int y = (System.Windows.Forms.SystemInformation.WorkingArea.Height - this.Size.Height) / 2; //螢幕高 1/2位置
+            this.Location = (Point)new Size(x, y); //窗體的起始位置為x,y
         }
     }
 }
